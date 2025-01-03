@@ -1,0 +1,80 @@
+# Monologique Nuit theme for Helix
+
+# Interface elements
+"ui.default" = { fg = "#d1d1d1", bg = "#262626" }
+"ui.selection" = { fg = "#eeeeee", bg = "#4f4f4f" }
+"ui.cursor" = { fg = "#262626", bg = "#b0b0b0" }
+"ui.cursor.primary" = { fg = "#262626", bg = "#b0b0b0" }
+"ui.cursor.match" = { fg = "#262626", bg = "#b0b0b0" }
+"ui.linenr" = { fg = "#4f4f4f" }
+"ui.linenr.selected" = { fg = "#d1d1d1" }
+"ui.statusline" = { fg = "#d1d1d1", bg = "#4f4f4f" }
+"ui.statusline.inactive" = { fg = "#888888", bg = "#2a2a2a" }
+"ui.popup" = { fg = "#d1d1d1", bg = "#2a2a2a" }
+"ui.window" = { fg = "#d1d1d1", bg = "#2a2a2a" }
+"ui.help" = { fg = "#d1d1d1", bg = "#2a2a2a" }
+
+# Syntax highlighting
+"comment" = "#888888"
+"constant" = "#dbb594"
+"constant.numeric" = "#dbb594"
+"constant.character.#escape" = "#888888"
+"string" = "#979797"
+"string.regexp" = "#8a89cb"
+#"string.special" = "#dbb594"
+"string.special" = "#dbb594"
+"keyword" = "#8a89cb"
+"operator" = "#d1d1d1"
+"function" = { fg = "#f6f6f6", modifiers = ["bold"] }
+"function.builtin" = "#dbb594"
+"function.method" = "#b0b0b0"
+"variable" = "#b0b0b0"
+"variable.builtin" = "#8a89cb"
+"variable.other.member" = "#E7E7E7"
+"punctuation" = "#d1d1d1"
+"punctuation.special" = "#F6F6F6"
+"type" = "#dbb594"
+"type.builtin" = "#e99573"
+"constructor" = "#dbb594"
+"special" = "#e99573"
+
+# Markup
+"markup.heading" = "#8a89cb"
+"markup.list" = "#b0b0b0"
+"markup.bold" = { fg = "dbb594", modifiers = ["bold"] }
+"markup.italic" = { fg = "8a89cb", modifiers = ["italic"] }
+"markup.link.url" = { fg = "888888", modifiers = ["underlined"] }
+"markup.link.text" = "#8a89cb"
+"markup.quote" = "#b0b0b0"
+"markup.raw" = "#b0b0b0"
+
+# Diagnostics
+"diagnostic" = { modifiers = ["underlined"] }
+"error" = "#e99573"
+"warning" = "#dbb594"
+"info" = "#8a89cb"
+"hint" = "#888888"
+
+[palette]
+background = "#262626"
+foreground = "#d1d1d1"
+
+# Normal colors
+black = "#2a2a2a"
+red = "#e99573"
+green = "#b0b0b0"
+yellow = "#dbb594"
+blue = "#8a89cb"
+magenta = "#8a89cb"
+cyan = "#888888"
+white = "#dddddd"
+
+# Bright colors
+bright-black = "#4f4f4f"
+bright-red = "#e99573"
+bright-green = "#b0b0b0"
+bright-yellow = "#dbb594"
+bright-blue = "#8a89cb"
+bright-magenta = "#8a89cb"
+bright-cyan = "#888888"
+bright-white = "#6d6d6d"

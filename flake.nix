@@ -57,9 +57,10 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           packages = with pkgs; [
+            bash-language-server
             nil
             nixfmt-rfc-style
-            bash-language-server
+            taplo
           ];
         };
       });

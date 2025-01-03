@@ -1,0 +1,13 @@
+[[language]]
+name = "nix"
+auto-format = true
+
+[language.formatter]
+command = "nixfmt"
+
+[[language]]
+name = "typst"
+auto-format = true
+
+[language.formatter]
+command = "typstfmt"
